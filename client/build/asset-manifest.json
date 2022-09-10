@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f3e20be.chunk.css",
+    "main.js": "/static/js/main.9dbb1485.chunk.js",
+    "main.js.map": "/static/js/main.9dbb1485.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d70f494.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d70f494.js.map",
+    "static/js/2.cf5be98b.chunk.js": "/static/js/2.cf5be98b.chunk.js",
+    "static/js/2.cf5be98b.chunk.js.map": "/static/js/2.cf5be98b.chunk.js.map",
+    "static/js/3.aff3c53c.chunk.js": "/static/js/3.aff3c53c.chunk.js",
+    "static/js/3.aff3c53c.chunk.js.map": "/static/js/3.aff3c53c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8f3e20be.chunk.css.map": "/static/css/main.8f3e20be.chunk.css.map",
+    "static/js/2.cf5be98b.chunk.js.LICENSE.txt": "/static/js/2.cf5be98b.chunk.js.LICENSE.txt",
+    "static/media/Icon-likes.e870740b.svg": "/static/media/Icon-likes.e870740b.svg",
+    "static/media/Icon-search.6b9e4c56.svg": "/static/media/Icon-search.6b9e4c56.svg",
+    "static/media/Icon-views.84be3383.svg": "/static/media/Icon-views.84be3383.svg",
+    "static/media/gallery.scss": "/static/media/Linotype - AvenirNextLTPro-Regular.75d8c490.otf",
+    "static/media/Logo-brainflix.0153380c.svg": "/static/media/Logo-brainflix.0153380c.svg",
+    "static/media/comments.scss": "/static/media/Mohan-muruge.8fed455b.jpg",
+    "static/media/Upload-video-preview.313a407c.jpg": "/static/media/Upload-video-preview.313a407c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d70f494.js",
+    "static/js/2.cf5be98b.chunk.js",
+    "static/css/main.8f3e20be.chunk.css",
+    "static/js/main.9dbb1485.chunk.js"
+  ]
+}
