@@ -1,0 +1,25 @@
+@import "./partials/partial";
+@import "./partials/mixins";
+
+.container {
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container__all {
+  @include desktop {
+    display: flex;
+    margin: 0 11.25rem;
+  }
+}
+.container__two {
+  @include desktop {
+    width: 80%;
+  }
+}
+.container__gallery {
+  @include desktop {
+    margin-left: 2rem;
+  }
+}

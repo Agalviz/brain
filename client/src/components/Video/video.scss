@@ -1,0 +1,78 @@
+@import "/src/partials/partial";
+@import "/src/partials/mixins";
+
+* {
+  font-family: $avenir;
+}
+
+.current-video {
+  width: 100%;
+  height: 11.43rem;
+  background-color: black;
+  @include tablet {
+    height: 25rem;
+  }
+  @include desktop {
+    height: 32.5rem;
+  }
+}
+p {
+  display: flex;
+}
+.video__description {
+  margin: 0 1rem;
+  @include desktop {
+    margin: 0;
+  }
+}
+.video__description--info {
+  border-bottom: 1px solid $mercury;
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+}
+.video__title {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  @include tablet {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.75rem;
+    line-height: 4.25rem;
+  }
+  @include desktop {
+    margin-top: 2.5rem;
+  }
+}
+.video__description--left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.video__description--right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.video__time {
+  margin-left: 0.5rem;
+}
+.video__icon {
+  margin-right: 0.5rem;
+}
+.video__likes {
+  margin-left: 1rem;
+}
+.video__desc {
+  margin-top: 1.5rem;
+  @include tablet {
+    margin-top: 2.5rem;
+    width: 70%;
+  }
+  @include desktop {
+    width: 80%;
+  }
+}

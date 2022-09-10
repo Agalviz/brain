@@ -1,0 +1,34 @@
+$desktop: 1440px;
+$tablet: 768px;
+
+//colors
+
+$silver: #afafaf;
+$blue-dark: #002f5f;
+$brainflix-blue-dark: #0065ad;
+$mercury: #e1e1e1;
+$black-color: #323232;
+$instock-blue: #004892;
+$brainflix-blue: #0095ff;
+$white: #ffffff;
+$alabaster: #fafafa;
+
+$avenir: "Avenir";
+$avenir-demi: "Avenir-demi";
+$avenir-bold: "Avenir-bold";
+
+@font-face {
+  font-family: Avenir;
+  src: url("../assets/Fonts/AvenirNextProLT/Linotype\ -\ AvenirNextLTPro-Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: Avenir-demi;
+  src: url("../assets/Fonts/AvenirNextProLT/Linotype\ -\ AvenirNextLTPro-Demi.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: Avenir-bold;
+  src: url("../assets/Fonts/AvenirNextProLT/Linotype\ -\ AvenirNextLTPro-Bold.otf")
+    format("opentype");
+}

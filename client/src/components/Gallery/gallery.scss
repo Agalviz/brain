@@ -1,0 +1,60 @@
+@import "/src/partials/partial";
+@import "/src/partials/mixins";
+.gallery {
+  @include outer-margin;
+  margin-top: 0.5rem;
+  border-top: 1px solid $mercury;
+  @include tablet {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+  @include desktop {
+    margin-left: 0;
+    border-top: none;
+    border-left: 1px solid $mercury;
+  }
+}
+.gallery__content {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 1rem;
+  align-items: center;
+  height: 4.375rem;
+  @include tablet {
+    width: 50%;
+  }
+  @include desktop {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+  }
+}
+.gallery__img {
+  width: 7.5rem;
+  height: 4.375rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+.gallery__text {
+  margin-right: 1rem;
+}
+.gallery__header {
+  margin: 2.5rem 0;
+  color: $silver;
+  @include desktop {
+    padding-left: 1rem;
+  }
+}
+.gallery__title {
+  @include tablet {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: $avenir-demi;
+    margin-bottom: 0;
+  }
+}
+.gallery__channel {
+  @include tablet {
+    margin-top: 0.25rem;
+  }
+}

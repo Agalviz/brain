@@ -1,0 +1,86 @@
+@import "/src/partials/partial";
+@import "/src/partials/mixins";
+
+.header {
+  @include outer-margin;
+  height: 10.6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    flex-direction: row;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 8rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    margin: 0.5rem 0;
+    @include tablet {
+      margin-right: 10.56rem;
+    }
+    @include desktop {
+      margin-right: 31.81rem;
+    }
+  }
+  .header__avatar {
+    background-image: url(../../assets/Images/Mohan-muruge.jpg);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    @include tablet {
+      margin-right: 2rem;
+      margin-left: 0;
+    }
+  }
+  .header__button,
+  .header__search {
+    height: 3.03rem;
+  }
+  .header__search {
+    width: 15.375rem;
+    padding-left: 2rem;
+    border-radius: 0.25rem;
+    border: 1px solid $mercury;
+    background-color: $alabaster;
+    @include tablet {
+      margin-bottom: 0.5rem;
+      margin-right: 1.5rem;
+      width: 12rem;
+    }
+  }
+  .header__button {
+    width: 14rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: $brainflix-blue;
+    color: white;
+    @include tablet {
+      width: 6rem;
+      margin-right: 1.5rem;
+    }
+  }
+  .header__form {
+    display: flex;
+  }
+  .header__form-1 {
+    position: relative;
+    @include tablet {
+      display: flex;
+    }
+  }
+  .search-icon {
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+  }
+}

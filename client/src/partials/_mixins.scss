@@ -1,0 +1,69 @@
+@import "/src/partials/partial";
+
+* {
+  font-family: $avenir;
+  color: $black-color;
+  font-size: 13px;
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+//MQ
+@mixin outer-margin {
+  margin: 0 1rem 0 1rem;
+
+  @include tablet {
+    margin: 0 1.5rem;
+  }
+  @include desktop {
+    margin: 0 11.25rem;
+  }
+}
+
+//Fonts
+h1 {
+  font-family: $avenir-bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  @include tablet {
+    line-height: 2.25rem;
+    line-height: 2.75rem;
+  }
+}
+
+h2 {
+  font-family: $avenir-demi;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  @include tablet {
+    font-family: $avenir-bold;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+h3 {
+  @include tablet {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: $avenir-demi;
+  }
+}
+
+h4,
+p {
+  font-size: 0.812rem;
+  line-height: 1.125rem;
+  font-family: $avenir;
+  @include tablet {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}

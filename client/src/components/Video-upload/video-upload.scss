@@ -1,0 +1,134 @@
+@import "/src/partials/mixins";
+@import "/src/partials/partial";
+
+.video-upload {
+  @include outer-margin;
+}
+
+.upload__info {
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    width: 100%;
+    margin-left: 1.5rem;
+  }
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload__thumb {
+  width: 18rem;
+  height: 9.56rem;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+
+  @include desktop {
+    width: 21.5rem;
+    height: 11.43rem;
+  }
+}
+.upload__label {
+  font-family: $avenir-demi;
+  color: $silver;
+}
+.form__header {
+  font-family: $avenir-bold;
+}
+
+.upload__label--2 {
+  margin-top: 2rem;
+  @include desktop {
+    margin-top: 0;
+  }
+}
+.upload__label--3 {
+  margin-top: 1.5rem;
+}
+.upload__title {
+  height: 3rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  @include desktop {
+    height: 2.7rem;
+  }
+}
+.upload__description {
+  height: 8.937rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  @include desktop {
+    height: 4rem;
+  }
+}
+.upload__description,
+.upload__title {
+  background-color: $alabaster;
+  border-radius: 0.3rem;
+  border: 1px solid $silver;
+}
+
+.upload__publish {
+  background-color: $brainflix-blue;
+  border: none;
+  color: white;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  font-family: $avenir-demi;
+  margin-bottom: 1.5rem;
+
+  @include tablet {
+    margin-bottom: 0;
+    width: 10rem;
+  }
+  @include desktop {
+    height: 3rem;
+  }
+}
+.upload__cancel {
+  background-color: white;
+  border: none;
+  color: $brainflix-blue;
+  font-family: $avenir-demi;
+
+  @include tablet {
+    width: 10rem;
+  }
+}
+
+.upload__video {
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.upload__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @include tablet {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+}
+
+.upload__divider {
+  @include tablet {
+    border-bottom: 0.5px solid $silver;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.upload__all {
+  @include desktop {
+    display: flex;
+  }
+}
